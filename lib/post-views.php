@@ -2,7 +2,11 @@
 
 namespace WiredMedia\PopularPostsPlugin;
 
-// increment_post_views
+/**
+ * Increment post views.
+ *
+ * @since    1.0.0
+ */
 add_action('wp_head', function(){
     global $post;
 
@@ -21,8 +25,7 @@ add_action('wp_head', function(){
     // TODO: check if user is logged in, if so use flag to track logged in people or not
     // TODO: if we are tracking logged in peoples views then give some control over which user types to track
 
-    $count_key = 'wired_post_views_count';
-    $count = get_post_meta($post->ID, $count_key, true);
+    $count = get_post_meta($post->ID, Plugin::get_instance()->count_key, true);
 
     if (!$count) {
         $count = 1;
@@ -30,7 +33,7 @@ add_action('wp_head', function(){
         $count ++;
     }
 
-    update_post_meta($post->ID, $count_key, $count);
+    update_post_meta($post->ID, Plugin::get_instance()->count_key, $count);
 
 });
 

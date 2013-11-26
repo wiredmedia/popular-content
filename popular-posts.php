@@ -68,6 +68,15 @@ class Plugin {
     public $slug = "popular-posts";
 
     /**
+     * Unique identifier for count meta_key.
+     *
+     * @since    1.0.0
+     *
+     * @var      string
+     */
+    public $count_key = 'wired_post_views_count';
+
+    /**
      * Instance of this class.
      *
      * @since    1.0.0
