@@ -23,15 +23,76 @@
  * Domain Path: /lang
  */
 
+namespace WiredMedia\PopularPostsPlugin;
+
 // If this file is called directly, abort.
 if (!defined("WPINC")) {
 	die;
 }
 
-require_once(plugin_dir_path(__FILE__) . "PopularPosts.php");
+/**
+ * Plugin, used for retreiving global variables.
+ *
+ */
+class Plugin {
+    /**
+     * Plugin version, used for cache-busting of style and script file references.
+     *
+     * @since   1.0.0
+     *
+     * @var     string
+     */
+    public $version = "1.0.0";
 
-// Register hooks that are fired when the plugin is activated, deactivated, and uninstalled, respectively.
-register_activation_hook(__FILE__, array("PopularPosts", "activate"));
-register_deactivation_hook(__FILE__, array("PopularPosts", "deactivate"));
+    /**
+     * The main plugin file
+     *
+     * @since    1.0.0
+     *
+     * @var      string
+     */
+    public $main_file = "popular-posts/popular-posts.php";
 
-PopularPosts::get_instance();
+    /**
+     * Unique identifier for your plugin.
+     *
+     * Use this value (not the variable name) as the text domain when internationalizing strings of text. It should
+     * match the Text Domain file header in the main plugin file.
+     *
+     * @since    1.0.0
+     *
+     * @var      string
+     */
+    public $slug = "popular-posts";
+
+    /**
+     * Instance of this class.
+     *
+     * @since    1.0.0
+     *
+     * @var      object
+     */
+    protected static $instance = null;
+
+    /**
+     * Return an instance of this class.
+     *
+     * @since     1.0.0
+     *
+     * @return    object    A single instance of this class.
+     */
+    public static function get_instance() {
+
+        // If the single instance hasn"t been set, set it now.
+        if (null == self::$instance) {
+            self::$instance = new self;
+        }
+
+        return self::$instance;
+    }
+
+}
+
+foreach (glob(plugin_dir_path(__FILE__) . 'lib/*.php') as $file) {
+    require_once($file);
+}
