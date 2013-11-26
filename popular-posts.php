@@ -25,6 +25,8 @@
 
 namespace WiredMedia\PopularPostsPlugin;
 
+// TODO: think about hooking this in to jetpack stats instead of trying to track page views ourselves
+
 // If this file is called directly, abort.
 if (!defined("WPINC")) {
 	die;
