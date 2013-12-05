@@ -5,7 +5,7 @@
  * This typically includes any information, if any, that is rendered to the
  * frontend of the theme when the plugin is activated.
  *
- * @package   popular-posts
+ * @package   popular-content
  * @author    Carl Hughes <carl.hughes@wiredmedia.co.uk>
  * @license   GPL-2.0+
  * @link      http://wiredmedia.co.uk

@@ -1,6 +1,6 @@
 <?php
 
-namespace WiredMedia\PopularPostsPlugin;
+namespace WiredMedia\PopularContentPlugin;
 
 /**
  * Get post views for a particular post.

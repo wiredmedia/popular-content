@@ -1,8 +1,8 @@
 {
-    "name": "wiredmedia/popular-posts",
+    "name": "wiredmedia/popular-content",
     "description": "A simple popular posts plugin.",
     "keywords": ["popular", "posts"],
-    "homepage": "https://github.com/wiredmedia/popular-posts",
+    "homepage": "https://github.com/wiredmedia/popular-content",
     "license": "GPL-2.0+",
     "authors": [
         {

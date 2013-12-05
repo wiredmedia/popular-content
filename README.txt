@@ -1,4 +1,4 @@
-=== popular-posts ===
+=== popular-content ===
 Contributors: codekipple
 Donate link: http://wiredmedia.co.uk
 Tags: popular, posts
@@ -18,7 +18,7 @@ A simple popular posts plugin (Longer description here)
 
 1. Upload `` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the "Plugins" menu in WordPress
-1. Place `<?php do_action("popular-posts_hook"); ?>` in your templates
+1. Place `<?php do_action("popular-content_hook"); ?>` in your templates
 
 == Screenshots ==
 

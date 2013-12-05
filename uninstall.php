@@ -2,7 +2,7 @@
 /**
  * Fired when the plugin is uninstalled.
  *
- * @package   popular-posts
+ * @package   popular-content
  * @author    Carl Hughes <carl.hughes@wiredmedia.co.uk>
  * @license   GPL-2.0+
  * @link      http://wiredmedia.co.uk

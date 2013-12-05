@@ -4,7 +4,7 @@
  *
  * A simple popular posts plugin
  *
- * @package   popular-posts
+ * @package   popular-content
  * @author    Carl Hughes <carl.hughes@wiredmedia.co.uk>
  * @license   GPL-2.0+
  * @link      http://wiredmedia.co.uk
@@ -17,13 +17,13 @@
  * Version:     1.0.0
  * Author:      Carl Hughes
  * Author URI:  http://wiredmedia.co.uk
- * Text Domain: popular-posts-locale
+ * Text Domain: popular-content-locale
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /lang
  */
 
-namespace WiredMedia\PopularPostsPlugin;
+namespace WiredMedia\PopularContentPlugin;
 
 // TODO: think about hooking this in to jetpack stats instead of trying to track page views ourselves
 
@@ -53,7 +53,7 @@ class Plugin {
      *
      * @var      string
      */
-    public $main_file = "popular-posts/popular-posts.php";
+    public $main_file = "popular-content/popular-content.php";
 
     /**
      * Unique identifier for your plugin.
@@ -65,7 +65,7 @@ class Plugin {
      *
      * @var      string
      */
-    public $slug = "popular-posts";
+    public $slug = "popular-content";
 
     /**
      * Unique identifier for count meta_key.

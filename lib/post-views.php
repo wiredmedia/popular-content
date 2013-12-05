@@ -1,6 +1,6 @@
 <?php
 
-namespace WiredMedia\PopularPostsPlugin;
+namespace WiredMedia\PopularContentPlugin;
 
 /**
  * Increment post views.

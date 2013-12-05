@@ -1,5 +1,5 @@
 # Copyright (C) 11-19-2013
-# This file is distributed under the same license as the popular-posts package.
+# This file is distributed under the same license as the popular-content package.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.0\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: popular-posts.php:214
+#: popular-content.php:214
 msgid "Page Title"
 msgstr ""
 
-#: popular-posts.php:215
+#: popular-content.php:215
 msgid "Menu Text"
 msgstr ""

@@ -1,6 +1,6 @@
 <?php
 
-namespace WiredMedia\PopularPostsPlugin;
+namespace WiredMedia\PopularContentPlugin;
 
 /**
  * Fired when the plugin is deactivated.
@@ -14,4 +14,4 @@ function deactivate($network_wide) {
 }
 
 // Register hook that are fires when the plugin is deactivate
-register_deactivation_hook(Plugin::get_instance()->main_file, 'WiredMedia\PopularPostsPlugin\deactivate');
+register_deactivation_hook(Plugin::get_instance()->main_file, 'WiredMedia\PopularContentPlugin\deactivate');
