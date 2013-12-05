@@ -7,7 +7,7 @@ namespace WiredMedia\PopularContentPlugin;
  *
  * @since    1.0.0
  */
-function get_post_views ($post_ID) {
+function get_content_views ($post_ID) {
 
     $count = get_post_meta($post_ID, Plugin::get_instance()->count_key, true);
 
@@ -22,7 +22,7 @@ function get_post_views ($post_ID) {
  *
  * @since    1.0.0
  */
-function get_popular_posts ($args) {
+function get_popular_content ($args) {
 
     // TODO: implement a range, so the user can provide dates for the most Popular Content or a keyword like weekly, otherwise it will just always show the all time most Popular Content
 
