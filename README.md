@@ -1,4 +1,4 @@
 popular-content
 =============
 
-A simple popular posts plugin for WordPress
+A simple Popular Content plugin for WordPress

@@ -1,8 +1,8 @@
 <?php
 /**
- * Popular Posts
+ * Popular Content
  *
- * A simple popular posts plugin
+ * A simple Popular Content plugin
  *
  * @package   popular-content
  * @author    Carl Hughes <carl.hughes@wiredmedia.co.uk>
@@ -11,9 +11,9 @@
  * @copyright 11-19-2013 Wired Media
  *
  * @wordpress-plugin
- * Plugin Name: Popular Posts
+ * Plugin Name: Popular Content
  * Plugin URI:  http://wiredmedia.co.uk
- * Description: A simple popular posts plugin
+ * Description: A simple Popular Content plugin
  * Version:     1.0.0
  * Author:      Carl Hughes
  * Author URI:  http://wiredmedia.co.uk

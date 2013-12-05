@@ -8,11 +8,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple popular posts plugin
+A simple Popular Content plugin
 
 == Description ==
 
-A simple popular posts plugin (Longer description here)
+A simple Popular Content plugin (Longer description here)
 
 == Installation ==
 

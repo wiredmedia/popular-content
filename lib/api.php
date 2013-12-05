@@ -24,7 +24,7 @@ function get_post_views ($post_ID) {
  */
 function get_popular_posts ($args) {
 
-    // TODO: implement a range, so the user can provide dates for the most popular posts or a keyword like weekly, otherwise it will just always show the all time most popular posts
+    // TODO: implement a range, so the user can provide dates for the most Popular Content or a keyword like weekly, otherwise it will just always show the all time most Popular Content
 
     // TODO: implement something which takes into account comments
 
